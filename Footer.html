@@ -18,7 +18,7 @@
     <link rel="icon" href="./img/LogoIcono.png" type="image/png" />
   </head>
   <body>
-    <footer>
+    <footer class="flex">
       <div class="footer-top">
         <div id="footer-top2">
           <div class="footer-top2-container">
@@ -171,20 +171,37 @@
               <p>Newsletter</p>
               <div class="footer-submenu">
                 <p>Recibe nuestras ultimas novedades</p>
-                <div class="input-wrapper-footer">
-                  <form action="post">
-                    <input type="email" placeholder="Tu email" required />
-                    <button type="submit">
-                      <img src="./img/cheque.png" alt="" width="20px" />
-                    </button>
-                  </form>
+                <div class="input-wrapper-footer flex">
+                  <div class="input-wrapper-footer2 flex">
+                    <form action="post">
+                      <input type="email" placeholder="Tu email" required />
+                      <button type="submit">
+                        <img src="./img/cheque.png" alt="" width="20px" />
+                      </button>
+                    </form>
+                  </div>
+                  <p>
+                    Puedes darte de baja en cualquier momento. Para ello,
+                    encontrará nuestros datos de contacto en el aviso legal.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer-bottom"></div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-container">
+          <div class="footer-bottom-row flex">
+            <div class="tptncopyright">
+              © 2024 Todos los derechos reservados.
+            </div>
+            <div class="tptnpayment">
+              <img src="./img/payment.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

@@ -143,6 +143,7 @@ i {
   border-radius: 4px;
   padding: 0 15px;
   line-height: 40px;
+  cursor: pointer;
 }
 
 .header-bottom {
@@ -349,36 +350,371 @@ li[data-depth="0"] {
   white-space: nowrap;
 }
 
-/* @media (min-width: 1400px) {
-  .container {
-    width: 1320px;
-  }
-}
+@media (min-width: 769px) and (max-width: 1200px) {
 
-@media (min-width: 1200px) {
-  .container {
-    width: 1140px;
-    max-width: 100%;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    width: 960px;
-    max-width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
+  .container-top{
     width: 720px;
     max-width: 100%;
   }
-}
 
-@media (min-width: 576px) {
-  .container {
-    width: 540px;
+  #lang{
+    font-size: 12px;
+  }
+
+  #lang > option{
+    font-size: 12px;
+  }
+
+  #money{
+    font-size: 12px;
+  }
+
+  #money > option{
+    font-size: 12px;
+  }
+
+  .container-middle{
+    width: 720px;
     max-width: 100%;
   }
-} */
+
+  .login-toogle-text{
+    display: none;
+  }
+
+  .login-toogle{
+    padding: 0 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+
+  .header-bottom{
+    height: 40px;
+  }
+
+  .container-bottom{
+    width: 720px;
+    max-width: 100%;
+    height: 40px;
+  }
+
+  .dtmenu-title{
+    font-size: 12px;
+    height: 40px;
+  }
+
+  #icon-menu{
+    font-size: 16px;
+  }
+
+  .hyper-list{
+    font-size: 12px;
+  }
+
+  .hyper-list>img{
+    display: none;
+  }
+
+  .hyper-list>i{
+    font-size: 12px;
+  }
+
+  .sub{
+    row-gap: 5px;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .sub-menu{
+    width: 100px;
+    font-size: 11px;
+    text-overflow: ellipsis;
+  }
+
+  .sub-menu-container{
+    column-gap: 15px;
+  }
+
+  .sub-menu-list>li{
+    width: 100px;
+  }
+
+  .sub-menu-list>li>a{
+    white-space: normal;
+  }
+
+  .header-nav-links>ul>li>a{
+    font-size: 12px;
+  }
+
+  .cart{
+    font-size: 12px;
+    height: 40px;
+  }
+
+  .divcart{
+    margin-left: 20px;
+  }
+
+  .spancart>a{
+    padding-left: 10px;
+    padding-right: 10px;  
+  }
+
+  .spancart>span{
+    display: none;
+   }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .container-top{
+    width: 640px;
+    max-width: 100%;
+  }
+
+  .container-top>div{
+    font-size: 12px;
+  }
+
+  #lang{
+    font-size: 12px;
+  }
+
+  #lang > option{
+    font-size: 12px;
+  }
+
+  #money{
+    font-size: 12px;
+  }
+
+  #money > option{
+    font-size: 12px;
+  }
+
+  .container-middle{
+    width: 640px;
+    max-width: 100%;
+  }
+
+  .login-toogle-text{
+    display: none;
+  }
+
+  .login-toogle{
+    padding: 0 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .logo{
+    flex-basis: 20%;
+  }
+
+  .search{
+    flex-basis: 65%;
+    padding: 0 0 0 20px;
+  }
+  .account{
+    flex-basis: 15%;
+  }
+
+  .header-bottom{
+    height: 40px;
+  }
+
+  .container-bottom{
+    width: 640px;
+    max-width: 100%;
+    height: 40px;
+  }
+
+  .dtmenu-title{
+    height: 40px;
+    width: 50px;
+  }
+
+  .dtmenu-title>span{
+    display: none;
+  }
+
+  #icon-menu{
+    font-size: 16px;
+  }
+
+  .hyper-list{
+    font-size: 12px;
+  }
+
+  .hyper-list>i{
+    display: none;
+  }
+
+  .dtmenu-list{
+    width: 150px;
+  }
+
+  .desktop-menu li:hover .sub-container-menu {
+    display: none;
+  }
+
+  .header-nav-links{
+    margin-left: auto;
+  }
+
+  .header-nav-links>ul>li{
+    font-size: 12px;
+  }
+
+  .i-header-nav, .np-header-nav, .s-header-nav{
+    display: none;
+  }
+
+  .cart{
+    font-size: 12px;
+    height: 40px;
+  }
+
+  .divcart{
+    margin-left: auto;
+  }
+
+  .spancart>a{
+    padding-left: 10px;
+    padding-right: 10px;  
+  }
+
+  .spancart>span{
+    display: none;
+   }
+
+} 
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .container-top{
+    width: 420px;
+    max-width: 100%;
+  }
+
+  .container-top>div{
+    font-size: 12px;
+  }
+
+  #lang{
+    font-size: 12px;
+  }
+
+  #lang > option{
+    font-size: 12px;
+  }
+
+  #money{
+    font-size: 12px;
+  }
+
+  #money > option{
+    font-size: 12px;
+  }
+
+  .container-middle{
+    width: 420px;
+    max-width: 100%;
+  }
+
+  .login-toogle-text{
+    display: none;
+  }
+
+  .login-toogle{
+    padding: 0 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .logo{
+    flex-basis: 15%;
+  }
+
+  .search{
+    flex-basis: 75%;
+    padding: 0 0 0 10px;
+  }
+  
+  #search-nav::-webkit-placeholder{
+    display: none;
+  }
+  #search-nav:-moz-placeholder{
+    display: none;
+  }
+  #search-nav::-ms-placeholder{
+    display: none;
+  }
+  #search-nav::placeholder{
+    display: none;
+  }
+
+
+  .account{
+    margin-left: 5px;
+    flex-basis: 10%;
+  }
+
+  .login-toogle{
+    padding: 0;
+  }
+
+  .header-bottom{
+    height: 40px;
+  }
+
+  .container-bottom{
+    width: 420px;
+    max-width: 100%;
+    height: 40px;
+  }
+
+  .dtmenu-title{
+    height: 40px;
+    width: 50px;
+  }
+
+  .dtmenu-title>span{
+    display: none;
+  }
+
+  #icon-menu{
+    font-size: 16px;
+  }
+
+  .hyper-list{
+    font-size: 12px;
+  }
+
+  .hyper-list>i{
+    display: none;
+  }
+
+  .dtmenu-list{
+    width: 150px;
+  }
+
+  .desktop-menu li:hover .sub-container-menu {
+    display: none;
+  }
+
+  .header-nav-links{
+    margin-left: auto;
+  }
+
+  .header-nav-links>ul>li{
+    font-size: 12px;
+  }
+
+  .i-header-nav, .np-header-nav, .s-header-nav{
+    display: none;
+  }
+
+
+}

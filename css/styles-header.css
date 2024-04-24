@@ -258,7 +258,7 @@ li[data-depth="0"] {
   color: rgb(201, 201, 201);
 }
 
-.header-nav-liks-hidden{
+.header-nav-liks-hidden {
   display: none;
 }
 
@@ -599,11 +599,11 @@ li[data-depth="0"] {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
- .header-top{
-  padding-top: 0 !important;
- }
+  .header-top {
+    padding-top: 0 !important;
+  }
 
-  .container-top{
+  .container-top {
     width: 420px;
     max-width: 100%;
     flex-direction: row;
@@ -626,7 +626,6 @@ li[data-depth="0"] {
     margin-left: 0;
     margin-top: 10px;
     margin-bottom: 10px;
-
   }
 
   #lang {
@@ -645,7 +644,6 @@ li[data-depth="0"] {
     margin-left: 0;
     display: flex;
     justify-content: end;
-
   }
 
   #money {
@@ -671,7 +669,7 @@ li[data-depth="0"] {
     cursor: pointer;
   }
 
-  .header-middle{
+  .header-middle {
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -766,21 +764,20 @@ li[data-depth="0"] {
     display: none;
   }
 
-  .header-nav-liks-hidden{
+  .header-nav-liks-hidden {
     display: block;
     height: 40px;
     padding: 0 10px;
     margin-right: auto;
   }
 
-  .links-hidden-nav-responsive{
+  .links-hidden-nav-responsive {
     list-style: none;
     height: 40px;
     position: relative;
-
   }
 
-  .links-hidden-nav-responsive>a{
+  .links-hidden-nav-responsive > a {
     height: 40px;
     display: flex;
     background: #ed1d24;
@@ -790,8 +787,7 @@ li[data-depth="0"] {
     align-items: center;
   }
 
-
-  .links-hidden-nav-responsive-container{
+  .links-hidden-nav-responsive-container {
     display: none;
     box-shadow: 0 6px 10px 2px rgba(0, 0, 0, 0.2);
     position: absolute;
@@ -800,19 +796,18 @@ li[data-depth="0"] {
     left: 0;
   }
 
-  .links-hidden-nav-responsive-container>ul>li{
-   list-style: none;
-   font-size: 12px;
-   white-space: nowrap;
-   border-bottom: 1px solid #eee;
-   padding: 10px;
+  .links-hidden-nav-responsive-container > ul > li {
+    list-style: none;
+    font-size: 12px;
+    white-space: nowrap;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
   }
 
-  .links-hidden-nav-responsive-container>ul>li>a{
+  .links-hidden-nav-responsive-container > ul > li > a {
     text-decoration: none;
     color: #777;
-
-   }
+  }
 
   .links-hidden-nav-responsive:hover .links-hidden-nav-responsive-container {
     display: block;

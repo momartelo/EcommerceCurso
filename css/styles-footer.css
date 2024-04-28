@@ -202,6 +202,7 @@ footer {
 .footer-bottom {
   border-top: var(--normal-border);
   padding: 0.9375rem 0;
+  width: 100%;
 }
 
 .footer-bottom-container {
@@ -228,7 +229,7 @@ footer {
   width: 40%;
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (min-width: 769px) and (max-width: 1320px) {
   footer {
     align-items: center;
   }
@@ -247,7 +248,7 @@ footer {
   .footer-box-container {
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    row-gap: 1.25rem;
+    column-gap: 1rem;
   }
 
   .box-content > a > img {
@@ -259,8 +260,10 @@ footer {
   }
 
   .footer-container {
-    width: 90%;
+    width: 100%;
     padding-bottom: 0.625rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .footer-container2 {
@@ -351,15 +354,15 @@ footer {
   }
 
   .footer-bottom {
-    width: 90%;
+    width: 100%;
   }
 
   .footer-bottom-container {
-    width: 90%;
+    width: 100%;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .tptncopyright {
@@ -415,8 +418,8 @@ footer {
 
   .footer-container2 {
     width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   .footer-container2 > .row {
@@ -535,18 +538,18 @@ footer {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .tptncopyright {
-    width: 40%;
+    width: 50%;
     padding-left: 0;
     font-size: var(--submenu-font-size-06875);
   }
 
   .tptnpayment {
-    width: 60%;
+    width: 50%;
   }
 
   .tptnpayment > img {
@@ -716,6 +719,7 @@ footer {
 
   .footer-bottom {
     width: 100%;
+    padding: 0.625rem 0;
   }
 
   .footer-bottom-container {
@@ -726,14 +730,21 @@ footer {
     padding-right: 0.625rem;
   }
 
+  .footer-bottom-row {
+    flex-direction: column;
+  }
+
   .tptncopyright {
-    width: 40%;
-    padding-left: 0;
+    width: 100%;
+    padding: 0;
     font-size: var(--submenu-font-size-06875);
+    text-align: center;
+    margin-bottom: 0.5rem;
   }
 
   .tptnpayment {
-    width: 60%;
+    width: 100%;
+    text-align: center;
   }
 
   .tptnpayment > img {

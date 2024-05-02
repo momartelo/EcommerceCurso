@@ -61,6 +61,7 @@ select:focus {
   background-color: var(--background-color);
   display: block;
   width: 100%;
+  max-width: 1320px;
 }
 
 #header .header-top {

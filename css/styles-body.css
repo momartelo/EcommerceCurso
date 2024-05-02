@@ -78,6 +78,7 @@ body {
 .section-wrapper {
   padding: 1.875rem 0;
   width: 100%;
+  max-width: 1320px;
 }
 
 .body-container {

@@ -4,477 +4,503 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MegaShop</title>
-    <link rel="stylesheet" href="./css/styles-header.css">
+    <link rel="stylesheet" href="./css/styles-header.css" />
     <link rel="stylesheet" href="./css/styles-body.css" />
-    <link rel="stylesheet" href="./css/styles-footer.css">
+    <link rel="stylesheet" href="./css/styles-footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link rel="icon" href="./img/LogoIcono.png" type="image/png" />
   </head>
   <body>
     <header id="header">
-        <div class="header-top">
-          <div class="container-top flex">
-            <div class="text">Holiday Sale on Clothing at 20% discount</div>
-            <div class="language">
-              <form action="#">
-                <select name="lenguajes" id="lang">
-                  <option value="selecciona">Idioma</option>
-                  <option value="english">English</option>
-                  <option value="francais">Francais</option>
-                  <option value="portuguese">Portuguese</option>
-                  <option value="spanish">Spanish</option>
-                </select>
-              </form>
-            </div>
-            <div class="currency">
-              <form action="#">
-                <select name="currencies" id="money">
-                  <option value="selecciona">Moneda</option>
-                  <option value="english">Dollar</option>
-                  <option value="francais">Euro</option>
-                  <option value="portuguese">Real</option>
-                  <option value="spanish">Peso Arg.</option>
-                </select>
-              </form>
+      <div class="header-top">
+        <div class="container-top flex">
+          <div class="text">Holiday Sale on Clothing at 20% discount</div>
+          <div class="language">
+            <form class="flex" action="#">
+              <select name="lenguajes" id="lang">
+                <option value="selecciona">Idioma</option>
+                <option value="english">English</option>
+                <option value="francais">Francais</option>
+                <option value="portuguese">Portuguese</option>
+                <option value="spanish">Spanish</option>
+              </select>
+            </form>
+          </div>
+          <div class="currency">
+            <form class="flex" action="#">
+              <select name="currencies" id="money">
+                <option value="selecciona">Moneda</option>
+                <option value="english">Dolar</option>
+                <option value="francais">Euro</option>
+                <option value="portuguese">Real</option>
+                <option value="spanish">Peso Arg.</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="header-middle">
+        <div class="container-middle flex">
+          <div class="logo">
+            <a class="logo-grande" href="#"
+              ><img src="./img/megashop-logo-1492236279.jpg" alt=""
+            /></a>
+            <a class="logo-chico" href="#"
+              ><img src="./img/LogoCelular.png" alt="" height="65px"
+            /></a>
+          </div>
+          <div class="search">
+            <form class="flex" action="" id="buttonform">
+              <input type="text" name="" id="search-nav" placeholder="Search" />
+              <button type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+          <div class="account">
+            <div class="login-register">
+              <div class="login-toogle">
+                <i class="fas fa-user"></i>
+                <span class="login-toogle-text">Mi Cuenta</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="header-middle">
-          <div class="container-middle flex">
-            <div class="logo">
-              <div>
-                <h1>
-                  <a href="#"
-                    ><img src="./img/megashop-logo-1492236279.jpg" alt=""
-                  /></a>
-                </h1>
+      </div>
+      <div class="header-bottom">
+        <div class="container-bottom flex">
+          <div class="hidden-menu">
+            <div class="dtmenu">
+              <div class="dtmenu-title flex">
+                <i id="icon-menu" class="fas fa-bars"></i>
+                <span>Categorias</span>
               </div>
-            </div>
-            <div class="search">
-              <form action="" id="buttonform">
-                <input type="text" name="" id="" placeholder="Search" />
-                <button type="submit">
-                  <i class="fas fa-search"></i>
-                </button>
-              </form>
-            </div>
-            <div class="account">
-              <div class="login-register">
-                <div class="login-toogle">
-                  <i class="fas fa-user"></i>
-                  <span class="login-toogle-text">Mi Cuenta</span>
-                </div>
+              <div class="dtmenu-list">
+                <ul class="desktop-menu">
+                  <li data-depth="0">
+                    <a href="" class="hyper-list flex">
+                      <img src="./img/tv-vieja.png" alt="" />Electronicos<i
+                        id="icon-submenu"
+                        class="fas fa-caret-right"
+                      ></i>
+                    </a>
+                    <div class="sub-container-menu">
+                      <ul class="sub flex">
+                        <div class="sub-menu-container flex">
+                          <li class="sub-menu">
+                            <a href="#">Television</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Smart TVs</a>
+                              </li>
+                              <li>
+                                <a href="#">TVs LED</a>
+                              </li>
+                              <li>
+                                <a href="#">Tvs 4K</a>
+                              </li>
+                              <li>
+                                <a href="#">Controles Remotos</a>
+                              </li>
+                              <li>
+                                <a href="#">Accesorios</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="sub-menu">
+                            <a href="#">Celulares</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Tablets</a>
+                              </li>
+                              <li>
+                                <a href="#">Celulares Libres</a>
+                              </li>
+                              <li>
+                                <a href="#">Celulares con Abono</a>
+                              </li>
+                              <li>
+                                <a href="#">Relojes</a>
+                              </li>
+                              <li>
+                                <a href="#">Accesorios</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="sub-menu">
+                            <a href="#">Camaras</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Camaras Digitales</a>
+                              </li>
+                              <li>
+                                <a href="#">DSLR y SLR</a>
+                              </li>
+                              <li>
+                                <a href="#">Point and Shoot</a>
+                              </li>
+                              <li>
+                                <a href="#">Camaraa Estenopeica</a>
+                              </li>
+                              <li>
+                                <a href="#">Accesorios</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="sub-menu">
+                            <a href="#">Consolas</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Consolas</a>
+                              </li>
+                              <li>
+                                <a href="#">Videosjuegos</a>
+                              </li>
+                              <li>
+                                <a href="#">VR</a>
+                              </li>
+                              <li>
+                                <a href="#">Accesorios</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </div>
+                        <div class="sub-menu-container flex">
+                          <li class="sub-menu">
+                            <a href="#">Computadoras</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">PC de Escritorio</a>
+                              </li>
+                              <li>
+                                <a href="#">Notebooks</a>
+                              </li>
+                              <li>
+                                <a href="#">All in One</a>
+                              </li>
+                              <li>
+                                <a href="#">Monitores</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="sub-menu">
+                            <a href="#">Componentes PC</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Memorias</a>
+                              </li>
+                              <li>
+                                <a href="#">Discos</a>
+                              </li>
+                              <li>
+                                <a href="#">Placas de video</a>
+                              </li>
+                              <li>
+                                <a href="#">Procesadores</a>
+                              </li>
+                              <li>
+                                <a href="#">Placas Madre</a>
+                              </li>
+                              <li>
+                                <a href="#">Fuentes</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="sub-menu">
+                            <a href="#">Perifericos PC</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Sillas Gamer</a>
+                              </li>
+                              <li>
+                                <a href="#">Auriculares</a>
+                              </li>
+                              <li>
+                                <a href="#">Impresoras</a>
+                              </li>
+                              <li>
+                                <a href="#">Conectividad y Redes</a>
+                              </li>
+                              <li>
+                                <a href="#">Estabilizadores</a>
+                              </li>
+                              <li>
+                                <a href="#">Mouses y Teclados</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="sub-menu">
+                            <a href="#">Software</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">SO</a>
+                              </li>
+                              <li>
+                                <a href="#">Diseño</a>
+                              </li>
+                              <li>
+                                <a href="#">Redes</a>
+                              </li>
+                              <li>
+                                <a href="#">Comercial</a>
+                              </li>
+                              <li>
+                                <a href="#">Oficina</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li data-depth="0">
+                    <a href="" class="hyper-list flex">
+                      <img src="./img/camiseta-de-manga-corta.png" alt="" />Ropa
+                      <i id="icon-submenu" class="fas fa-caret-right"></i>
+                    </a>
+                    <div class="sub-container-menu">
+                      <ul class="sub flex">
+                        <div class="sub-menu-container flex">
+                          <li class="sub-menu">
+                            <a href="#">Mujeres</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Ropa Interior</a>
+                              </li>
+                              <li>
+                                <a href="#">Remeras y Tops</a>
+                              </li>
+                              <li>
+                                <a href="#">Pantalones</a>
+                              </li>
+                              <li>
+                                <a href="#">Ropa de Abrigo</a>
+                              </li>
+                              <li>
+                                <a href="#">Faldas</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="sub-menu">
+                            <a href="#">Hombres</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Ropa Interior</a>
+                              </li>
+                              <li>
+                                <a href="#">Remeras</a>
+                              </li>
+                              <li>
+                                <a href="#">Pantalones</a>
+                              </li>
+                              <li>
+                                <a href="#">Sweters</a>
+                              </li>
+                              <li>
+                                <a href="#">Camperas</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="sub-menu">
+                            <a href="#">Chicos</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Ropa Interior</a>
+                              </li>
+                              <li>
+                                <a href="#">Ropa para Bebe</a>
+                              </li>
+                              <li>
+                                <a href="#">Ropa de Abrigo</a>
+                              </li>
+                              <li>
+                                <a href="#">Ropa para Chicos</a>
+                              </li>
+                              <li>
+                                <a href="#">Ropa para Adolescentes</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li data-depth="0">
+                    <a href="" class="hyper-list flex">
+                      <img src="./img/sillon.png" alt="" />
+                      Muebles y Hogar
+                      <i id="icon-submenu" class="fas fa-caret-right"></i>
+                    </a>
+                    <div class="sub-container-menu">
+                      <ul class="sub flex">
+                        <div class="sub-menu-container flex">
+                          <li class="sub-menu">
+                            <a href="#">Adornos y Decoracion</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Cajas y Canastos</a>
+                              </li>
+                              <li>
+                                <a href="#">Cortinas y Accesorios</a>
+                              </li>
+                              <li>
+                                <a href="#">Plantas y Flores Artificiales</a>
+                              </li>
+                              <li>
+                                <a href="#">Portarretratos</a>
+                              </li>
+                              <li>
+                                <a href="#">Velas y Fanales</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="sub-menu">
+                            <a href="#">Bazar y Cocina</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Cafe, Te y Mate</a>
+                              </li>
+                              <li>
+                                <a href="#">Cubeteras y Hieleras</a>
+                              </li>
+                              <li>
+                                <a href="#">Repasadores</a>
+                              </li>
+                              <li>
+                                <a href="#">Utensillos de Cocina</a>
+                              </li>
+                              <li>
+                                <a href="#">Vajilla</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="sub-menu">
+                            <a href="#">Baños</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Bachas</a>
+                              </li>
+                              <li>
+                                <a href="#">Barrales</a>
+                              </li>
+                              <li>
+                                <a href="#">Bañeras</a>
+                              </li>
+                              <li>
+                                <a href="#">Griferia</a>
+                              </li>
+                              <li>
+                                <a href="#">Sanitarios</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="sub-menu">
+                            <a href="#">Muebles</a>
+                            <ul class="sub-menu-list">
+                              <li>
+                                <a href="#">Bibliotecas</a>
+                              </li>
+                              <li>
+                                <a href="#">Camas</a>
+                              </li>
+                              <li>
+                                <a href="#">Mesas</a>
+                              </li>
+                              <li>
+                                <a href="#">Muebles para TV</a>
+                              </li>
+                              <li>
+                                <a href="#">Sillas y Sillones</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li data-depth="0">
+                    <a href="" class="hyper-list flex">
+                      <img src="./img/bolso-de-mano.png" alt="" />
+                      Accesorios
+                    </a>
+                  </li>
+                  <li data-depth="0">
+                    <a href="" class="hyper-list flex">
+                      <img src="./img/carro.png" alt="" />
+                      Automoviles
+                    </a>
+                  </li>
+                  <li data-depth="0">
+                    <a href="" class="hyper-list flex">
+                      <img src="./img/legumbres.png" alt="" />
+                      Salud
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
-        <div class="header-bottom">
-          <div class="container-bottom flex">
-            <div class="hidden-menu">
-              <div class="dtmenu">
-                <div class="dtmenu-title flex">
-                  <i id="icon-menu" class="fas fa-bars"></i>
-                  <span>Categorias</span>
-                </div>
-                <div class="dtmenu-list">
-                  <ul class="desktop-menu">
-                    <li data-depth="0">
-                      <a href="" class="hyper-list">
-                        <img src="./img/tv-vieja.png" alt="" />Electronicos<i
-                          id="icon-submenu"
-                          class="fas fa-caret-right"
-                        ></i>
-                      </a>
-                      <div class="sub-container-menu">
-                        <ul class="sub flex">
-                          <div class="sub-menu-container flex">
-                            <li class="sub-menu">
-                              <a href="#">Television</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Smart TVs</a>
-                                </li>
-                                <li>
-                                  <a href="#">TVs LED</a>
-                                </li>
-                                <li>
-                                  <a href="#">Tvs 4K</a>
-                                </li>
-                                <li>
-                                  <a href="#">Controles Remotos</a>
-                                </li>
-                                <li>
-                                  <a href="#">Accesorios</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="sub-menu">
-                              <a href="#">Celulares</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Tablets</a>
-                                </li>
-                                <li>
-                                  <a href="#">Celulares Libres</a>
-                                </li>
-                                <li>
-                                  <a href="#">Celulares con Abono</a>
-                                </li>
-                                <li>
-                                  <a href="#">Relojes</a>
-                                </li>
-                                <li>
-                                  <a href="#">Accesorios</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="sub-menu">
-                              <a href="#">Camaras</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Camaras Digitales</a>
-                                </li>
-                                <li>
-                                  <a href="#">DSLR y SLR</a>
-                                </li>
-                                <li>
-                                  <a href="#">Point and Shoot</a>
-                                </li>
-                                <li>
-                                  <a href="#">Camaraa Estenopeica</a>
-                                </li>
-                                <li>
-                                  <a href="#">Accesorios</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="sub-menu">
-                              <a href="#">Consolas</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Consolas</a>
-                                </li>
-                                <li>
-                                  <a href="#">Videosjuegos</a>
-                                </li>
-                                <li>
-                                  <a href="#">VR</a>
-                                </li>
-                                <li>
-                                  <a href="#">Accesorios</a>
-                                </li>
-                              </ul>
-                            </li>
-                          </div>
-                          <div class="sub-menu-container flex">
-                            <li class="sub-menu">
-                              <a href="#">Computadoras</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">PC de Escritorio</a>
-                                </li>
-                                <li>
-                                  <a href="#">Notebooks</a>
-                                </li>
-                                <li>
-                                  <a href="#">All in One</a>
-                                </li>
-                                <li>
-                                  <a href="#">Monitores</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="sub-menu">
-                              <a href="#">Componentes PC</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Memorias</a>
-                                </li>
-                                <li>
-                                  <a href="#">Discos</a>
-                                </li>
-                                <li>
-                                  <a href="#">Placas de video</a>
-                                </li>
-                                <li>
-                                  <a href="#">Procesadores</a>
-                                </li>
-                                <li>
-                                  <a href="#">Placas Madre</a>
-                                </li>
-                                <li>
-                                  <a href="#">Fuentes</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="sub-menu">
-                              <a href="#">Perifericos PC</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Sillas Gamer</a>
-                                </li>
-                                <li>
-                                  <a href="#">Auriculares</a>
-                                </li>
-                                <li>
-                                  <a href="#">Impresoras</a>
-                                </li>
-                                <li>
-                                  <a href="#">Conectividad y Redes</a>
-                                </li>
-                                <li>
-                                  <a href="#">Estabilizadores</a>
-                                </li>
-                                <li>
-                                  <a href="#">Mouses y Teclados</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="sub-menu">
-                              <a href="#">Software</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">SO</a>
-                                </li>
-                                <li>
-                                  <a href="#">Diseño</a>
-                                </li>
-                                <li>
-                                  <a href="#">Redes</a>
-                                </li>
-                                <li>
-                                  <a href="#">Comercial</a>
-                                </li>
-                                <li>
-                                  <a href="#">Oficina</a>
-                                </li>
-                              </ul>
-                            </li>
-                          </div>
-                        </ul>
-                      </div>
+          <div class="header-nav-links">
+            <ul>
+              <li class="i-header-nav"><a href="#">Inicio</a></li>
+              <li class="np-header-nav"><a href="#">Nuevos Productos</a></li>
+              <li class="m-header-nav"><a href="#">Marcas</a></li>
+              <li class="v-header-nav"><a href="#">Vender</a></li>
+              <li class="s-header-nav"><a href="#">Sucursales</a></li>
+              <li class="n-header-nav"><a href="#">Nosotros</a></li>
+              <li class="c-header-nav"><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="header-nav-liks-hidden">
+            <ul>
+              <li class="links-hidden-nav-responsive">
+                <a href="#"
+                  ><i id="icon-menu" class="fas fa-ellipsis-h"></i>
+                </a>
+                <div class="links-hidden-nav-responsive-container">
+                  <ul>
+                    <li class="i-header-nav-responsive">
+                      <a href="#">Inicio</a>
                     </li>
-                    <li data-depth="0">
-                      <a href="" class="hyper-list">
-                        <img src="./img/camiseta-de-manga-corta.png" alt="" />Ropa
-                        <i id="icon-submenu" class="fas fa-caret-right"></i>
-                      </a>
-                      <div class="sub-container-menu">
-                        <ul class="sub flex">
-                          <div class="sub-menu-container flex">
-                            <li class="sub-menu">
-                              <a href="#">Mujeres</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Ropa Interior</a>
-                                </li>
-                                <li>
-                                  <a href="#">Remeras y Tops</a>
-                                </li>
-                                <li>
-                                  <a href="#">Pantalones</a>
-                                </li>
-                                <li>
-                                  <a href="#">Ropa de Abrigo</a>
-                                </li>
-                                <li>
-                                  <a href="#">Faldas</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="sub-menu">
-                              <a href="#">Hombres</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Ropa Interior</a>
-                                </li>
-                                <li>
-                                  <a href="#">Remeras</a>
-                                </li>
-                                <li>
-                                  <a href="#">Pantalones</a>
-                                </li>
-                                <li>
-                                  <a href="#">Sweters</a>
-                                </li>
-                                <li>
-                                  <a href="#">Camperas</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="sub-menu">
-                              <a href="#">Chicos</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Ropa Interior</a>
-                                </li>
-                                <li>
-                                  <a href="#">Ropa para Bebe</a>
-                                </li>
-                                <li>
-                                  <a href="#">Ropa de Abrigo</a>
-                                </li>
-                                <li>
-                                  <a href="#">Ropa para Chicos</a>
-                                </li>
-                                <li>
-                                  <a href="#">Ropa para Adolescentes</a>
-                                </li>
-                              </ul>
-                            </li>
-                          </div>
-                        </ul>
-                      </div>
+                    <li class="np-header-nav-responsive">
+                      <a href="#">Nuevos Productos</a>
                     </li>
-                    <li data-depth="0">
-                      <a href="" class="hyper-list">
-                        <img src="./img/sillon.png" alt="" />
-                        Muebles y Hogar
-                        <i id="icon-submenu" class="fas fa-caret-right"></i>
-                      </a>
-                      <div class="sub-container-menu">
-                        <ul class="sub flex">
-                          <div class="sub-menu-container flex">
-                            <li class="sub-menu">
-                              <a href="#">Adornos y Decoracion</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Cajas y Canastos</a>
-                                </li>
-                                <li>
-                                  <a href="#">Cortinas y Accesorios</a>
-                                </li>
-                                <li>
-                                  <a href="#">Plantas y Flores Artificiales</a>
-                                </li>
-                                <li>
-                                  <a href="#">Portarretratos</a>
-                                </li>
-                                <li>
-                                  <a href="#">Velas y Fanales</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="sub-menu">
-                              <a href="#">Bazar y Cocina</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Cafe, Te y Mate</a>
-                                </li>
-                                <li>
-                                  <a href="#">Cubeteras y Hieleras</a>
-                                </li>
-                                <li>
-                                  <a href="#">Repasadores</a>
-                                </li>
-                                <li>
-                                  <a href="#">Utensillos de Cocina</a>
-                                </li>
-                                <li>
-                                  <a href="#">Vajilla</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="sub-menu">
-                              <a href="#">Baños</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Bachas</a>
-                                </li>
-                                <li>
-                                  <a href="#">Barrales</a>
-                                </li>
-                                <li>
-                                  <a href="#">Bañeras</a>
-                                </li>
-                                <li>
-                                  <a href="#">Griferia</a>
-                                </li>
-                                <li>
-                                  <a href="#">Sanitarios</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="sub-menu">
-                              <a href="#">Muebles</a>
-                              <ul class="sub-menu-list">
-                                <li>
-                                  <a href="#">Bibliotecas</a>
-                                </li>
-                                <li>
-                                  <a href="#">Camas</a>
-                                </li>
-                                <li>
-                                  <a href="#">Mesas</a>
-                                </li>
-                                <li>
-                                  <a href="#">Muebles para TV</a>
-                                </li>
-                                <li>
-                                  <a href="#">Sillas y Sillones</a>
-                                </li>
-                              </ul>
-                            </li>
-                          </div>
-                        </ul>
-                      </div>
+                    <li class="m-header-nav-responsive">
+                      <a href="#">Marcas</a>
                     </li>
-                    <li data-depth="0">
-                      <a href="" class="hyper-list">
-                        <img src="./img/bolso-de-mano.png" alt="" />
-                        Accesorios
-                      </a>
+                    <li class="v-header-nav-responsive">
+                      <a href="#">Vender</a>
                     </li>
-                    <li data-depth="0">
-                      <a href="" class="hyper-list">
-                        <img src="./img/carro.png" alt="" />
-                        Automoviles
-                      </a>
+                    <li class="s-header-nav-responsive">
+                      <a href="#">Sucursales</a>
                     </li>
-                    <li data-depth="0">
-                      <a href="" class="hyper-list">
-                        <img src="./img/legumbres.png" alt="" />
-                        Salud
-                      </a>
+                    <li class="n-header-nav-responsive">
+                      <a href="#">Nosotros</a>
+                    </li>
+                    <li class="c-header-nav-responsive">
+                      <a href="#">Contacto</a>
                     </li>
                   </ul>
                 </div>
-              </div>
-            </div>
-            <div class="header-nav-links">
-              <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nuevos Productos</a></li>
-                <li><a href="#">Marcas</a></li>
-                <li><a href="#">Vender</a></li>
-                <li><a href="#">Sucursales</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
-              </ul>
-            </div>
-            <div class="divcart">
-              <div class="cart">
-                <span class="spancart">
-                  <a href="#"
-                    ><img src="./img/icons8-carrito-de-compras-24.png" alt=""
-                  /></a>
-                  <span>0</span>
-                </span>
-              </div>
+              </li>
+            </ul>
+          </div>
+          <div class="divcart">
+            <div class="cart">
+              <span class="spancart">
+                <a href="#"
+                  ><img src="./img/icons8-carrito-de-compras-24.png" alt=""
+                /></a>
+                <span>$0.00</span>
+              </span>
             </div>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
     <section class="section-wrapper">
       <div class="body-container">
         <div class="body-container-row">
@@ -784,7 +810,7 @@
                   <div class="popular-products">
                     <div class="popular-products-container">
                       <div class="popular-products-list">
-                        <div class="popular-products-product">
+                        <div class="popular-products-product pr1">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -815,8 +841,10 @@
                                   <span class="regular-price"> $750.00 </span>
                                   <span class="price"> $675.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -857,7 +885,7 @@
                             </div>
                           </article>
                         </div>
-                        <div class="popular-products-product">
+                        <div class="popular-products-product pr2">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -888,8 +916,10 @@
                                   <!-- <span class="regular-price"> $750.00 </span> -->
                                   <span class="price"> $85.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -930,7 +960,7 @@
                             </div>
                           </article>
                         </div>
-                        <div class="popular-products-product">
+                        <div class="popular-products-product pr3">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -963,8 +993,10 @@
                                   <!-- <span class="regular-price"> $750.00 </span> -->
                                   <span class="price"> $980.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -1005,7 +1037,7 @@
                             </div>
                           </article>
                         </div>
-                        <div class="popular-products-product">
+                        <div class="popular-products-product pr4">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -1030,14 +1062,18 @@
                               </div>
                               <div class="product-description-populars">
                                 <h3>
-                                  <a href="#">Zapatillas Casuales Para Hombres</a>
+                                  <a href="#"
+                                    >Zapatillas Casuales Para Hombres</a
+                                  >
                                 </h3>
                                 <div class="product-price">
                                   <span class="regular-price"> $40.00 </span>
                                   <span class="price"> $35.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -1112,7 +1148,7 @@
                   <div class="popular-products">
                     <div class="popular-products-container">
                       <div class="popular-products-list">
-                        <div class="popular-products-product">
+                        <div class="popular-products-product elec1">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -1143,8 +1179,10 @@
                                   <!-- <span class="regular-price"> $750.00 </span> -->
                                   <span class="price"> $1240.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -1185,7 +1223,7 @@
                             </div>
                           </article>
                         </div>
-                        <div class="popular-products-product">
+                        <div class="popular-products-product elec2">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -1216,8 +1254,10 @@
                                   <span class="regular-price"> $600.00 </span>
                                   <span class="price"> $550.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -1258,7 +1298,7 @@
                             </div>
                           </article>
                         </div>
-                        <div class="popular-products-product">
+                        <div class="popular-products-product elec3">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -1283,16 +1323,16 @@
                               </div>
                               <div class="product-description-populars">
                                 <h3>
-                                  <a href="#"
-                                    >Webster Parlante Bluetooth</a
-                                  >
+                                  <a href="#">Webster Parlante Bluetooth</a>
                                 </h3>
                                 <div class="product-price">
                                   <span class="regular-price"> $100.00 </span>
                                   <span class="price"> $85.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -1333,7 +1373,7 @@
                             </div>
                           </article>
                         </div>
-                        <div class="popular-products-product">
+                        <div class="popular-products-product elec4">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -1364,8 +1404,10 @@
                                   <span class="regular-price"> $200.00 </span>
                                   <span class="price"> $180.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -1426,7 +1468,7 @@
                   <div class="popular-products">
                     <div class="popular-products-container">
                       <div class="popular-products-list">
-                        <div class="popular-products-product">
+                        <div class="popular-products-product rya1">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -1457,8 +1499,10 @@
                                   <!-- <span class="regular-price"> $750.00 </span> -->
                                   <span class="price"> $85.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -1499,7 +1543,7 @@
                             </div>
                           </article>
                         </div>
-                        <div class="popular-products-product">
+                        <div class="popular-products-product rya2">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -1524,14 +1568,18 @@
                               </div>
                               <div class="product-description-populars">
                                 <h3>
-                                  <a href="#">Zapatillas Casuales para Hombres</a>
+                                  <a href="#"
+                                    >Zapatillas Casuales para Hombres</a
+                                  >
                                 </h3>
                                 <div class="product-price">
                                   <span class="regular-price"> $40.00 </span>
                                   <span class="price"> $35.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -1572,7 +1620,7 @@
                             </div>
                           </article>
                         </div>
-                        <div class="popular-products-product">
+                        <div class="popular-products-product rya3">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -1597,16 +1645,16 @@
                               </div>
                               <div class="product-description-populars">
                                 <h3>
-                                  <a href="#"
-                                    >Top Formal de Mujer a Rayas</a
-                                  >
+                                  <a href="#">Top Formal de Mujer a Rayas</a>
                                 </h3>
                                 <div class="product-price">
                                   <span class="regular-price"> $35.00 </span>
                                   <span class="price"> $30.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -1647,7 +1695,7 @@
                             </div>
                           </article>
                         </div>
-                        <div class="popular-products-product">
+                        <div class="popular-products-product rya4">
                           <article class="article-product">
                             <div class="thumbnail-container-product">
                               <div class="thumbnail-top-product">
@@ -1678,8 +1726,10 @@
                                   <!-- <span class="regular-price"> $200.00 </span> -->
                                   <span class="price"> $65.00 </span>
                                 </div>
-                                <div class="product-review flex2">
-                                  <div class="grade-stars flex2">
+                                <div class="product-review">
+                                  <div
+                                    class="grade-stars stars-responsive flex2"
+                                  >
                                     <img
                                       src="./img/estrella-dorada-16.png"
                                       alt=""
@@ -1729,7 +1779,7 @@
                     <h4>Marcas</h4>
                     <div class="popular-products-links">
                       <a class="flex" href="#">
-                        <p>Mostrar todos</p>
+                        <p>Mostrar todas</p>
                         <img
                           src="./img/siguiente-boton.png"
                           alt=""
@@ -1739,23 +1789,23 @@
                   </div>
                   <div class="marcas-container">
                     <ul class="marcas-list flex">
-                      <li class="flex">
-                        <a href="#"><img src="./img/Adidas.png" alt=""></a>
+                      <li class="mark1">
+                        <a href="#"><img src="./img/Adidas.png" alt="" /></a>
                       </li>
-                      <li class="flex">
-                        <a href="#"><img src="./img/Apple.png" alt=""></a>
+                      <li class="mark2">
+                        <a href="#"><img src="./img/Apple.png" alt="" /></a>
                       </li>
-                      <li class="flex">
-                        <a href="#"><img src="./img/Coca.png" alt=""></a>
+                      <li class="mark3">
+                        <a href="#"><img src="./img/Coca.png" alt="" /></a>
                       </li>
-                      <li class="flex">
-                        <a href="#"><img src="./img/Google.png" alt=""></a>
+                      <li class="mark4">
+                        <a href="#"><img src="./img/Google.png" alt="" /></a>
                       </li>
-                      <li class="flex">
-                        <a href="#"><img src="./img/Mc.png" alt=""></a>
+                      <li class="mark5">
+                        <a href="#"><img src="./img/Mc.png" alt="" /></a>
                       </li>
-                      <li class="flex">
-                        <a href="#"><img src="./img/Nike.png" alt=""></a>
+                      <li class="mark6">
+                        <a href="#"><img src="./img/Nike.png" alt="" /></a>
                       </li>
                     </ul>
                   </div>
@@ -1772,25 +1822,64 @@
                           width="16px"
                       /></a>
                     </div>
-                  </div>    
+                  </div>
                   <div class="experiencias-texts flex">
-                    <div class="experiencia flex">
-                      <img src="./img/Rostro1.png" class="foto-exp" alt="" width="100px">
-                      <p>"Estoy muy contenta con mi compra. El producto es exactamente lo que esperaba." - Ana Lopez</p>
+                    <div class="experiencia exp1 flex">
+                      <img
+                        src="./img/Rostro1.png"
+                        class="foto-exp"
+                        alt=""
+                        width="100px"
+                      />
+                      <p>
+                        "Estoy muy contenta con mi compra. El producto es
+                        exactamente lo que esperaba." - Ana Lopez
+                      </p>
                     </div>
-                    <div class="experiencia flex">
-                      <img src="./img/Rostro3.png" class="foto-exp" alt="" width="100px">
-                      <p>"El servicio al cliente fue excelente. Me ayudaron a encontrar el producto perfecto para mis necesidades." - Juan Perez</p>
+                    <div class="experiencia exp2 flex">
+                      <img
+                        src="./img/Rostro3.png"
+                        class="foto-exp"
+                        alt=""
+                        width="100px"
+                      />
+                      <p>
+                        "El servicio al cliente fue excelente. Me ayudaron a
+                        encontrar el producto perfecto para mis necesidades." -
+                        Juan Perez
+                      </p>
                     </div>
-                    <div class="experiencia flex">
-                      <img src="./img/Rostro2.png" class="foto-exp" alt="" width="100px">
-                      <p>"¡Recomendaría esta tienda a cualquiera! Los precios son excelentes y la calidad de los productos es insuperable." - Maria Garcia</p>
+                    <div class="experiencia exp3 flex">
+                      <img
+                        src="./img/Rostro2.png"
+                        class="foto-exp"
+                        alt=""
+                        width="100px"
+                      />
+                      <p>
+                        "¡Recomendaría esta tienda a cualquiera! Los precios son
+                        excelentes y la calidad de los productos es
+                        insuperable." - Maria Garcia
+                      </p>
                     </div>
-                    <div class="experiencia flex">
-                      <img src="./img/Rostro4.png" class="foto-exp" alt="" width="100px">
-                      <p>" <strong>¡Envío rápido y excelente servicio al cliente! </strong>  Tuve un problema con mi pedido y lo solucionaron de inmediato. Definitivamente compraré aquí de nuevo." - Jose Martinez</p>
+                    <div class="experiencia exp4 flex">
+                      <img
+                        src="./img/Rostro4.png"
+                        class="foto-exp"
+                        alt=""
+                        width="100px"
+                      />
+                      <p>
+                        "
+                        <strong
+                          >¡Envío rápido y excelente servicio al cliente!
+                        </strong>
+                        Tuve un problema con mi pedido y lo solucionaron de
+                        inmediato. Definitivamente compraré aquí de nuevo." -
+                        Jose Martinez
+                      </p>
                     </div>
-                  </div>              
+                  </div>
                 </section>
               </section>
             </section>
@@ -1799,189 +1888,189 @@
       </div>
     </section>
     <footer class="flex">
-        <div class="footer-top">
-          <div id="footer-top2">
-            <div class="footer-top2-container">
-              <div class="footer-box-container flex">
-                <div class="box-content">
-                  <a href="#">
-                    <img src="./img/reciclar.png" alt="" width="36px" />
-                    <span>Politica de cambio: 10 dias</span>
-                  </a>
-                </div>
-                <div class="box-content">
-                  <a href="#">
-                    <img src="./img/modo-avion.png" alt="" width="36px" />
-                    <span>Envio gratis en todas las ordenes</span>
-                  </a>
-                </div>
-                <div class="box-content">
-                  <a href="#">
-                    <img src="./img/estrella.png" alt="" width="36px" />
-                    <span>Productos de alta calidad</span>
-                  </a>
-                </div>
-                <div class="box-content">
-                  <a href="#">
-                    <img src="./img/desbloquear.png" alt="" width="36px" />
-                    <span>Sistema de pago seguro</span>
-                  </a>
-                </div>
-                <div class="box-content">
-                  <a href="#">
-                    <img src="./img/auricular.png" alt="" width="36px" />
-                    <span>0800 - 555 - 1697</span>
-                  </a>
-                </div>
-                <div class="box-content">
-                  <a href="#">
-                    <img src="./img/corazon.png" alt="" width="36px" />
-                    <span>Textos en varios idiomas</span>
-                  </a>
-                </div>
+      <div class="footer-top">
+        <div id="footer-top2">
+          <div class="footer-top2-container">
+            <div class="footer-box-container flex">
+              <div class="box-content box1">
+                <a href="#">
+                  <img src="./img/reciclar.png" alt="" width="36px" />
+                  <span>Politica de cambio: 10 dias</span>
+                </a>
+              </div>
+              <div class="box-content box2">
+                <a href="#">
+                  <img src="./img/modo-avion.png" alt="" width="36px" />
+                  <span>Envio gratis en todas las ordenes</span>
+                </a>
+              </div>
+              <div class="box-content box3">
+                <a href="#">
+                  <img src="./img/estrella.png" alt="" width="36px" />
+                  <span>Productos de alta calidad</span>
+                </a>
+              </div>
+              <div class="box-content box4">
+                <a href="#">
+                  <img src="./img/desbloquear.png" alt="" width="36px" />
+                  <span>Sistema de pago seguro</span>
+                </a>
+              </div>
+              <div class="box-content box5">
+                <a href="#">
+                  <img src="./img/auricular.png" alt="" width="36px" />
+                  <span>0800 - 555 - 1697</span>
+                </a>
+              </div>
+              <div class="box-content box6">
+                <a href="#">
+                  <img src="./img/corazon.png" alt="" width="36px" />
+                  <span>Textos en varios idiomas</span>
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer-container">
-          <div class="footer-container2">
-            <div class="row">
-              <div class="footer-links">
-                <p>Categorias</p>
-                <div class="footer-links-list">
-                  <ul>
-                    <li>
-                      <a href="#">Electronicos</a>
-                    </li>
-                    <li>
-                      <a href="#">Ropa</a>
-                    </li>
-                    <li>
-                      <a href="#">Muebles y Hogar</a>
-                    </li>
-                    <li>
-                      <a href="#">Acessorios</a>
-                    </li>
-                    <li>
-                      <a href="#">Automoviles</a>
-                    </li>
-                    <li>
-                      <a href="#">Salud</a>
-                    </li>
-                  </ul>
-                </div>
+      </div>
+      <div class="footer-container">
+        <div class="footer-container2">
+          <div class="row">
+            <div class="footer-links fl1">
+              <p>Categorias</p>
+              <div class="footer-links-list">
+                <ul>
+                  <li>
+                    <a href="#">Electronicos</a>
+                  </li>
+                  <li>
+                    <a href="#">Ropa</a>
+                  </li>
+                  <li>
+                    <a href="#">Muebles y Hogar</a>
+                  </li>
+                  <li>
+                    <a href="#">Acessorios</a>
+                  </li>
+                  <li>
+                    <a href="#">Automoviles</a>
+                  </li>
+                  <li>
+                    <a href="#">Salud</a>
+                  </li>
+                </ul>
               </div>
-              <div class="footer-links">
-                <p>Contacto</p>
-                <div class="footer-links-list">
-                  <ul>
-                    <li>
-                      <a href="#">Delivery</a>
-                    </li>
-                    <li>
-                      <a href="#">Legales</a>
-                    </li>
-                    <li>
-                      <a href="#">Nosotros</a>
-                    </li>
-                    <li>
-                      <a href="#">Pagos</a>
-                    </li>
-                    <li>
-                      <a href="#">Contactenos</a>
-                    </li>
-                    <li>
-                      <a href="#">Mapa del Sitio</a>
-                    </li>
-                  </ul>
-                </div>
+            </div>
+            <div class="footer-links fl2">
+              <p>Links</p>
+              <div class="footer-links-list">
+                <ul>
+                  <li>
+                    <a href="#">Delivery</a>
+                  </li>
+                  <li>
+                    <a href="#">Legales</a>
+                  </li>
+                  <li>
+                    <a href="#">Nosotros</a>
+                  </li>
+                  <li>
+                    <a href="#">Pagos</a>
+                  </li>
+                  <li>
+                    <a href="#">Contactenos</a>
+                  </li>
+                  <li>
+                    <a href="#">Mapa del Sitio</a>
+                  </li>
+                </ul>
               </div>
-              <div class="footer-links">
-                <p>Contacto</p>
-                <div class="footer-links-list">
-                  <ul>
-                    <li>
-                      Olazabal 1654, Mar del Plata, Provincia de Buenos Aires,
-                      Argentina - C.P.:7600
-                    </li>
-                    <li>0800 - 555 - 1697</li>
-                    <li>info@megashop.com.ar</li>
-                  </ul>
-                  <ul class="social-icons flex">
-                    <li class="facebook">
-                      <a href="#"
-                        ><img
-                          src="./img/facebook.svg"
-                          alt=""
-                          width="36px"
-                          height="36px"
-                      /></a>
-                    </li>
-                    <li class="twitter">
-                      <a href="#"
-                        ><img
-                          src="./img/twitter.svg"
-                          alt=""
-                          width="36px"
-                          height="36px"
-                      /></a>
-                    </li>
-                    <li class="instagram">
-                      <a href="#"
-                        ><img
-                          src="./img/instagram.svg"
-                          alt=""
-                          width="36px"
-                          height="36px"
-                      /></a>
-                    </li>
-                    <li class="youtube">
-                      <a href="#"
-                        ><img
-                          src="./img/youtube.svg"
-                          alt=""
-                          width="36px"
-                          height="36px"
-                      /></a>
-                    </li>
-                  </ul>
-                </div>
+            </div>
+            <div class="footer-links fl3">
+              <p>Contacto</p>
+              <div class="footer-links-list fl3info">
+                <ul>
+                  <li>
+                    Olazabal 1654, Mar del Plata, Provincia de Buenos Aires,
+                    Argentina - C.P.:7600
+                  </li>
+                  <li>0800 - 555 - 1697</li>
+                  <li>info@megashop.com.ar</li>
+                </ul>
+                <ul class="social-icons flex">
+                  <li class="facebook">
+                    <a href="#"
+                      ><img
+                        src="./img/facebook.svg"
+                        alt=""
+                        width="36px"
+                        height="36px"
+                    /></a>
+                  </li>
+                  <li class="twitter">
+                    <a href="#"
+                      ><img
+                        src="./img/twitter.svg"
+                        alt=""
+                        width="36px"
+                        height="36px"
+                    /></a>
+                  </li>
+                  <li class="instagram">
+                    <a href="#"
+                      ><img
+                        src="./img/instagram.svg"
+                        alt=""
+                        width="36px"
+                        height="36px"
+                    /></a>
+                  </li>
+                  <li class="youtube">
+                    <a href="#"
+                      ><img
+                        src="./img/youtube.svg"
+                        alt=""
+                        width="36px"
+                        height="36px"
+                    /></a>
+                  </li>
+                </ul>
               </div>
-              <div class="footer-links">
-                <p>Newsletter</p>
-                <div class="footer-submenu">
-                  <p>Recibe nuestras ultimas novedades</p>
-                  <div class="input-wrapper-footer flex">
-                    <div class="input-wrapper-footer2 flex">
-                      <form action="post">
-                        <input type="email" placeholder="Tu email" required />
-                        <button type="submit">
-                          <img src="./img/cheque.png" alt="" width="20px" />
-                        </button>
-                      </form>
-                    </div>
-                    <p>
-                      Puedes darte de baja en cualquier momento. Para ello,
-                      encontrará nuestros datos de contacto en el aviso legal.
-                    </p>
+            </div>
+            <div class="footer-links fl4">
+              <p>Newsletter</p>
+              <div class="footer-submenu">
+                <p>Recibe nuestras ultimas novedades</p>
+                <div class="input-wrapper-footer flex">
+                  <div class="input-wrapper-footer2 flex">
+                    <form action="post">
+                      <input type="email" placeholder="Tu email" required />
+                      <button type="submit">
+                        <img src="./img/cheque.png" alt="" width="20px" />
+                      </button>
+                    </form>
                   </div>
+                  <p>
+                    Puedes darte de baja en cualquier momento. Para ello,
+                    encontrará nuestros datos de contacto en el aviso legal.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <div class="footer-bottom-container">
-            <div class="footer-bottom-row flex">
-              <div class="tptncopyright">
-                © 2024 Todos los derechos reservados.
-              </div>
-              <div class="tptnpayment">
-                <img src="./img/payment.png" alt="" />
-              </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-container">
+          <div class="footer-bottom-row flex">
+            <div class="tptncopyright">
+              © 2024 Todos los derechos reservados.
+            </div>
+            <div class="tptnpayment">
+              <img src="./img/payment.png" alt="" />
             </div>
           </div>
         </div>
+      </div>
     </footer>
   </body>
 </html>

@@ -9,12 +9,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="icon" href="./img/LogoIcono.png" type="image/png" />
   </head>
   <body>
@@ -23,7 +17,7 @@
         <div class="container-top flex">
           <div class="text">Holiday Sale on Clothing at 20% discount</div>
           <div class="language">
-            <form action="#">
+            <form class="flex" action="#">
               <select name="lenguajes" id="lang">
                 <option value="selecciona">Idioma</option>
                 <option value="english">English</option>
@@ -34,10 +28,10 @@
             </form>
           </div>
           <div class="currency">
-            <form action="#">
+            <form class="flex" action="#">
               <select name="currencies" id="money">
                 <option value="selecciona">Moneda</option>
-                <option value="english">Dollar</option>
+                <option value="english">Dolar</option>
                 <option value="francais">Euro</option>
                 <option value="portuguese">Real</option>
                 <option value="spanish">Peso Arg.</option>
@@ -57,7 +51,7 @@
             /></a>
           </div>
           <div class="search">
-            <form action="" id="buttonform">
+            <form class="flex" action="" id="buttonform">
               <input type="text" name="" id="search-nav" placeholder="Search" />
               <button type="submit">
                 <i class="fas fa-search"></i>
@@ -85,7 +79,7 @@
               <div class="dtmenu-list">
                 <ul class="desktop-menu">
                   <li data-depth="0">
-                    <a href="" class="hyper-list">
+                    <a href="" class="hyper-list flex">
                       <img src="./img/tv-vieja.png" alt="" />Electronicos<i
                         id="icon-submenu"
                         class="fas fa-caret-right"
@@ -261,7 +255,7 @@
                     </div>
                   </li>
                   <li data-depth="0">
-                    <a href="" class="hyper-list">
+                    <a href="" class="hyper-list flex">
                       <img src="./img/camiseta-de-manga-corta.png" alt="" />Ropa
                       <i id="icon-submenu" class="fas fa-caret-right"></i>
                     </a>
@@ -333,7 +327,7 @@
                     </div>
                   </li>
                   <li data-depth="0">
-                    <a href="" class="hyper-list">
+                    <a href="" class="hyper-list flex">
                       <img src="./img/sillon.png" alt="" />
                       Muebles y Hogar
                       <i id="icon-submenu" class="fas fa-caret-right"></i>
@@ -426,19 +420,19 @@
                     </div>
                   </li>
                   <li data-depth="0">
-                    <a href="" class="hyper-list">
+                    <a href="" class="hyper-list flex">
                       <img src="./img/bolso-de-mano.png" alt="" />
                       Accesorios
                     </a>
                   </li>
                   <li data-depth="0">
-                    <a href="" class="hyper-list">
+                    <a href="" class="hyper-list flex">
                       <img src="./img/carro.png" alt="" />
                       Automoviles
                     </a>
                   </li>
                   <li data-depth="0">
-                    <a href="" class="hyper-list">
+                    <a href="" class="hyper-list flex">
                       <img src="./img/legumbres.png" alt="" />
                       Salud
                     </a>
@@ -461,19 +455,34 @@
           <div class="header-nav-liks-hidden">
             <ul>
               <li class="links-hidden-nav-responsive">
-                <a href="#"><i id="icon-menu" class="fas fa-ellipsis-h"></i>
+                <a href="#"
+                  ><i id="icon-menu" class="fas fa-ellipsis-h"></i>
                 </a>
-              <div class="links-hidden-nav-responsive-container">
-                <ul>
-                  <li class="i-header-nav-responsive"><a href="#">Inicio</a></li>
-                  <li class="np-header-nav-responsive"><a href="#">Nuevos Productos</a></li>
-                  <li class="m-header-nav-responsive"><a href="#">Marcas</a></li>
-                  <li class="v-header-nav-responsive"><a href="#">Vender</a></li>
-                  <li class="s-header-nav-responsive"><a href="#">Sucursales</a></li>
-                  <li class="n-header-nav-responsive"><a href="#">Nosotros</a></li>
-                  <li class="c-header-nav-responsive"><a href="#">Contacto</a></li>
-                </ul>
-              </div>
+                <div class="links-hidden-nav-responsive-container">
+                  <ul>
+                    <li class="i-header-nav-responsive">
+                      <a href="#">Inicio</a>
+                    </li>
+                    <li class="np-header-nav-responsive">
+                      <a href="#">Nuevos Productos</a>
+                    </li>
+                    <li class="m-header-nav-responsive">
+                      <a href="#">Marcas</a>
+                    </li>
+                    <li class="v-header-nav-responsive">
+                      <a href="#">Vender</a>
+                    </li>
+                    <li class="s-header-nav-responsive">
+                      <a href="#">Sucursales</a>
+                    </li>
+                    <li class="n-header-nav-responsive">
+                      <a href="#">Nosotros</a>
+                    </li>
+                    <li class="c-header-nav-responsive">
+                      <a href="#">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
               </li>
             </ul>
           </div>
@@ -483,7 +492,7 @@
                 <a href="#"
                   ><img src="./img/icons8-carrito-de-compras-24.png" alt=""
                 /></a>
-                <span>0</span>
+                <span>$0.00</span>
               </span>
             </div>
           </div>

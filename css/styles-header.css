@@ -176,6 +176,10 @@ i {
   padding-top: 5px;
 }
 
+.login-toogle-text {
+  color: var(--text-color);
+}
+
 .header-bottom {
   background-color: var(--background-header-color);
   height: 60px;
